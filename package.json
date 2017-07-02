@@ -1,7 +1,7 @@
 {
   "name": "prueba-vue",
   "version": "1.0.0",
-  "description": "Prueba para compropago",
+  "description": "Vue proyecto para prueba compropago",
   "author": "neobenjax <besaze@hotmail.com>",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "vue": "^2.3.3",
     "vue-router": "^2.3.1",
     "vuex": "^2.3.1"

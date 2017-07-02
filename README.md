@@ -1,6 +1,6 @@
 # prueba-vue
 
-> Prueba para compropago
+> Vue proyecto para prueba compropago
 
 ## Build Setup
 

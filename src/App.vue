@@ -1,7 +1,32 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <div id="app" class="full">
+      
+    <header>
+      <div class="contenido-centrado">
+        <div class="logo">
+          <img src="./assets/img/logo_brba.png">
+        </div>
+        <div class="buscador">
+          <form action="">
+            <input type="text" placeholder="Busca tu episodio">
+            <button>
+              <i class="material-icons">search</i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
     <router-view></router-view>
+
+    <footer>
+      <div class="contenido-centrado">
+        <p class="creditos">
+          Benjamin Sánchez
+        </p>
+      </div>
+    </footer>
+
   </div>
 </template>
 
@@ -10,14 +35,3 @@ export default {
   name: 'app',
 };
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
